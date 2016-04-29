@@ -8,12 +8,11 @@ is optional as calendar data read in can be brought into a Pandas dataframe or a
 interfacing with a MySQL database because I intend to create a relational database from other aspects of my project. 
 
 # Challenges
-There is a key (resovled in this code) issue I found in working with the iCalendar package (perhaps someone knows of a solution) 
+There is a key (resolved in this code) issue I found in working with the iCalendar package (perhaps someone knows of a solution) 
 where I would read in data and the UTC timestamp would show up, but with no offset. After much searching online, the solution I 
 came accross was to use the _fix_timezone function from the package created by:
 https://github.com/oblique63/Python-GoogleCalendarParser/blob/master/calendar_parser.py. I have included their python file,
 calendar_parser.py, for use with my solution (They of course deserve full credit for their Python file). 
 
 # Future Improvements
-This is a first draft, and I have noted planned improvements I intend to push out as I further develop this. These are commented
-out at the end of the document. 
+I hope to make future improvements, including a modification of the code to have one loop that can read in any number of .ics calendar files and perform the analysis. Additionally, I intend to add in capability to read in calendar data directly from the calendar's private URL rather than requiring it be downloaded. Potentially, if time permits, I may attempt to add code that could allow for parallel processing with PySpark for cases where very large numbers of calendars need to be read in. 

@@ -6,9 +6,9 @@ This code can be generalized to any other asset reserved through a similar syste
 # Modify both Python (.py) files by adding MySQL database connection information and run from command line
 The .ipynb file was the initial development file and is a useful reference. The final files to use are:
 
-1) Weekly_bCal_Reservations.py automatically reads in a specified calendar, pushes any new data out to the MySQL database, and spits out emails within (under current configuration) the last 7 days.
+1) Weekly_bCal_Reservations.py automatically reads in a specified calendar (user must add database information and calendar URL as commented in the Python code), pushes any new data out to the MySQL database, and spits out emails within (under current configuration) the last 7 days.
 
-2) bCal_eBikes_Utilization_Report.py does the same thing as the weekly reservations file, and generates an Excel file with a comprehensive asset utilization report. 
+2) bCal_eBikes_Utilization_Report.py does the same thing as the weekly reservations file (thus requires the same database and calendar information added to code), and generates an Excel file with a comprehensive asset utilization report. 
 
 "Reading in and Analyzing Calendar Data by Interfacing Between MySQL and Python.ipynb"
 

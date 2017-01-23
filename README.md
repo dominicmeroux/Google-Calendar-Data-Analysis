@@ -16,7 +16,7 @@ NOTE: the MySQL files were originally developed to analyze two e-bikes in the pi
 
 The final files are:
 
-1) Utilization-Report-SQLite.py is the file you can download, add in calendar URLs, change line 179 (https://github.com/dominicmeroux/Google-Calendar-Data-Analysis/blob/master/Utilization-Report-SQLite.py#L179), and add / subtract the number of calendars and names. 
+1) 'Utilization-Report-SQLite.py' is the file you can download, add in calendar URLs, change line 179 (https://github.com/dominicmeroux/Google-Calendar-Data-Analysis/blob/master/Utilization-Report-SQLite.py#L179), and add / subtract the number of calendars and names. 
 
 2) The Jupyter Notebook variant of this file may be helpful for step-by-step debugging, especially if you want to make a lot of changes (e.g. adding in 10 more calendars, etc.). 
 
